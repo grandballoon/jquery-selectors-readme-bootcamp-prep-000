@@ -21,6 +21,6 @@ function divSelector(){
 
 function firstListItem(){
   $('parent-tag child-tag:first-child');
-  let listItem = $('ul pic-list:first-child');
+  let listItem = $('ul #pic-list:first-child');
   return listItem;
 }
